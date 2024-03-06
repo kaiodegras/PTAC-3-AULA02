@@ -1,5 +1,5 @@
-import Menu from "../componentes/Menu";
-import Footer from "../componentes/footer";
+import Menu from "./componentes/Menu";
+import Footer from "./componentes/footer";
 
 
 
