@@ -1,9 +1,25 @@
 .cabecalho{
-    display: fkex;
+    display: flex;
     height: 100px;
-    background-color: red;
+    background-color: orange;
 }
 
 .cabecalho h1{
     margin-top: 0px;
+    align-items: center;
 }
+
+.footer{
+    background-color: orange;
+    text-align: center;
+    margin-top: 20%;
+    display: flex;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+}
+
+
+

@@ -1,10 +1,23 @@
-import styles from "./footer.module.css";
+import styles from "./menu.module.css";
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Footer(){
 
+
     return(
-        <header>
-            <a href="https://ead.ifms.edu.br/"></a>
-            <h1>Footer</h1>
+        <header className={styles.footer}>
+
+            <Image
+            width={60}
+            height={60}
+            src={"https://ead.ifms.edu.br/theme/moove/pix/moodle-logo-white.png"}/>
+
+
+
+            
+
+           
         </header>
     )
 }
