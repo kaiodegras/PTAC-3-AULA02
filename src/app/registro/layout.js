@@ -1,5 +1,5 @@
-import Menu from "./componentes/Menu";
-import Footer from "./componentes/Footer";
+import Menu from "../componentes/Menu";
+import Footer from "../componentes/Footer";
 
 export const metadata = {
   title: 'Create Next App',
