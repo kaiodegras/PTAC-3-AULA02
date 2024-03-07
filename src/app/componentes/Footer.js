@@ -13,10 +13,6 @@ export default function Footer(){
             height={60}
             src={"https://ead.ifms.edu.br/theme/moove/pix/moodle-logo-white.png"}/>
 
-
-
-            
-
            
         </header>
     )
