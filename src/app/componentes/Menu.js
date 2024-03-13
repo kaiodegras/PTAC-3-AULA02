@@ -1,10 +1,10 @@
 import Link from "next/link";
-import style from "./menu.module.css";
+import styles from "./menu.module.css";
 import Image from "next/image";
 
 export default function Menu() {
   return (
-    <header className={style.cabecalho}>
+    <header className={styles.cabecalho}>
        
        <Image
          width={100}

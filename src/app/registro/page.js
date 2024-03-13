@@ -1,8 +1,3 @@
-export default async function Registro() {
-
-  return (
-    <main>
-      <h1>registro</h1>
-    </main>
-  )
+export default function Registro(){
+  return( <h1>Pagina de Registro</h1>);
 }

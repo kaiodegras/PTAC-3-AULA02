@@ -9,17 +9,7 @@
     align-items: center;
 }
 
-.footer{
-    background-color: orange;
-    text-align: center;
-    margin-top: 20%;
-    display: flex;
-    height: 100px;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-    justify-content: center;
-}
+
 
 
 
