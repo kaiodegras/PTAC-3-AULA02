@@ -1,8 +1,8 @@
-export default async function Home() {
+export default async function Registro() {
 
   return (
     <main>
-      <h1>Home</h1>
+      <h1>registro</h1>
     </main>
   )
 }

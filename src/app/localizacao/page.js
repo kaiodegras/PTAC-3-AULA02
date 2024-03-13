@@ -1,5 +1,6 @@
 import React from "react";
-import Map from "../../componentes/Map";
+import Map from "../componentes/Map";
+
 
 export default function localizacao(){
     return(
