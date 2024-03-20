@@ -1,7 +1,7 @@
 import next from "next";
 
 export default async function Home() {
-  const resposta = await fetch("http://localhost:3000/api", {
+  const resposta = await fetch("https://back-end-ifms-git-main-kaios-projects-276abb8f.vercel.app/campi", {
     next:{
         rivalidate: 1
     }
@@ -13,7 +13,7 @@ export default async function Home() {
       <h1>Home</h1>
       {campus.map((campi) => (
         <div>
-          <p>{campi.nome_campi}</p>
+          <p>{campi.nome_campus}</p>
         </div>
       ))}
     </main>
