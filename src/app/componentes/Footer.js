@@ -9,7 +9,7 @@ export default function Footer(){
         <header className={styles.footer}>
 
             <Image
-            width={60}
+            width={100}
             height={60}
             src={"https://ead.ifms.edu.br/theme/moove/pix/moodle-logo-white.png"}/>
 
